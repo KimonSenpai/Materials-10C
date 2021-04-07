@@ -9,6 +9,11 @@ struct Node {
         next = nullptr;
     }
 };
+/*
+Node* a;
+(*a).value;
+a->value;
+*/
 
 struct List {
 private:
