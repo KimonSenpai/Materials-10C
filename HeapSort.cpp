@@ -42,6 +42,10 @@ int PopHeap(int* mas, int& n) {
     }
     return v;
 }
+template<int>
+bool less(int a, int b) {
+    return a >= b;
+}
 
 void HeapSort(int* beg, int* end) {
     int n = end - beg;
